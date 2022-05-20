@@ -1,0 +1,130 @@
+@charset "ISO-8859-1";
+
+.menu li:hover ul li:hover ul, .menu li:hover ul li:hover ul li:hover ul,
+	.menu li:hover ul li:hover ul li:hover ul li:hover ul, .menu li:hover ul li:hover ul li:hover ul li:hover ul li:hover ul
+	{
+	left: 200px;
+	top: -4px;
+	background: #333; 
+	padding: 3px;
+	white-space: nowrap;
+	width: 200px;
+	z-index: 4;
+	height: auto;
+}
+
+#search {
+	width: 228px; 
+	height: 22px;
+	float: right;
+	text-align: center;
+	margin-top: 6px;
+	margin-right: 6px;
+	
+	background:
+		url(http://4.bp.blogspot.com/_qgZA1ny_dAs/Szuhn02zO6I/AAAAAAAADdI/u2etpRWlwF8/s1600/search-bar.png)
+		no-repeat;
+}
+			
+#search-box {
+	margin-top: 3px;
+	border: 0px;
+	background: transparent;
+	text-align: center;
+}
+
+h1{
+	color: #FF0000; 
+    text-align: center; 
+    font-family: arial;
+    increase: start edge;
+    font-size: 20px;
+}
+
+h2{
+	color: #FF0000; 
+    text-align: center; 
+    font-family: arial;
+    increase: start edge;
+}
+
+h3{
+	color: #FF0000; 
+    text-align: left; 
+    font-family: arial;
+    increase: start edge;
+}
+
+h4{
+	color: white; 
+    text-align: left; 
+    font-family: arial;
+    increase: null;
+}
+
+h6{
+	color: #000000; 
+    text-align: left; 
+    font-family: arial;
+    increase: null;
+}
+
+h7{
+	color: #FF0000; 
+    text-align: left; 
+    font-family: arial;
+    increase: start edge;
+}
+
+h8{
+	color: white; 
+    text-align: left; 
+    font-family: arial;
+    increase: null;
+    font-size: 20px;
+}
+
+h9{
+	color:rgb(255, 255, 255); 
+    text-align: left; 
+    font-family: Georgia;
+    increase: null;
+}
+
+h10{
+	color: #000000; 
+    text-align: left; 
+    font-family: arial;
+    increase: null;
+}
+.nombre .img{
+	position: absolute;
+	top: 8%;
+	right: 5%;
+	width: 180px;
+	height: 180px;
+	border-radius: 100%;
+	transform: sknewY(5deg);
+	overflow: hidden;
+}
+
+.nombre .img img{
+	width: 180px;
+	height: 230px;
+}
+
+footer {
+overflow: hidden; 
+background-color: ED6953; 
+padding: 20px 10px; 
+text-align: center;
+clear :both;
+}
+footer li{
+list-style: none;
+font:bold 14px verdana; 
+padding: 10px; 
+display: inline-block; 
+}
+/*Fin de Menu horizontal con buscador
+			----------------------------------------------- */

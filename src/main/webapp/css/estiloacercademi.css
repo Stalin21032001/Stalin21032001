@@ -1,0 +1,28 @@
+@charset "ISO-8859-1";
+
+	body{
+	
+		background-color: #F08315;
+	}
+	
+	fieldset{
+		margin-botton: 13;
+	}
+	
+	legend{
+		background-color: #F08315;
+		padding: 5px;
+		border-radius: 220px;
+		font-weight:bold;
+	}
+	
+	img{
+	
+		border-radius: 10%;
+		margin-bottom: 12px;
+		margin-right: 20px;
+		float: center;
+	}
+	span{
+		font-weight: bold;
+	}
